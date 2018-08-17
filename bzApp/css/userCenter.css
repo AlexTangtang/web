@@ -46,15 +46,192 @@
     margin-left: 15px;
     height: 111px;
     float: left;
-    background-color: aqua;
+    /*background-color: aqua;*/
 }
 .nameLab{
     font-size: 24px;
     height: 35px;
-    margin-top: 10px;
+    margin-top: 12px;
     color: white;
     display: block;
 }
-.nameDesLab{
-
+.nameDesDiv{
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 150px;
+    height: 44px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    padding: 0px;
+    margin-top: 12px;
+}
+.tableView{
+    background-color: #f5f5f5;
+}
+.section1BackDiv{
+    height:240px;
+    background-color: white;
+}
+.section1HeadBackDiv{
+    height: 80px;
+    background-color: white;
+    clear: both;
+}
+.section1TitleDiv{
+    color: #333333;
+    font-size: 34px;
+    margin-top: 20px;
+    margin-left: 30px;
+    float: left;
+}
+.section1InfoDiv{
+    color: #a8a8a8;
+    font-size: 28px;
+    float: right;
+    margin-right: 10px;
+    margin-top: 22px;
+}
+.section1ArrowImg{
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+.s1row0BackDiv{
+    height: 160px;
+    clear: both;
+    background-color: white;
+}
+.itemDiv{
+    width: 25%;
+    text-align: center;
+    float: left;
+}
+.itemImg{
+    margin-top: 24px;
+}
+.itemInfoDiv{
+    margin-top: 4px;
+    font-size: 26px;
+    color: #333333;
+}
+.section2BackDiv{
+    margin-top:24px;
+    padding-top: 1px;
+    height: 230px;
+    background-color: white;
+}
+.s2row0backDiv{
+    height: 129px;
+    background-color: white;
+    text-align: center;
+    clear: both;
+}
+.s2row0Item1Div{
+    width: 49%;
+    height: 129px;
+    background-color: white;
+    text-align: center;
+    float: left;
+}
+.s2row0MidLinBackDiv{
+    width: 2%;
+    height: 129px;
+    background-color: white;
+    text-align: center;
+    float: left;
+}
+.s2row0Item2Div{
+    width: 49%;
+    height: 129px;
+    background-color: white;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    float: right;
+}
+.s2row0BottomLindiv{
+    height: 1px;
+    background-color: #a8a8a8;
+}
+.s2row0MidLinDiv{
+    height: 70px;
+    margin-top: 30px;
+    width: 1px;
+    background-color: #a8a8a8;
+}
+.rebateBtnDiv{
+    height: 50px;
+    background-color: white;
+}
+.rebateInfoDiv{
+    display: inline-block;
+    font-size: 28px;
+    color: #333333;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+.rebateInfoImg{
+    display: inline-block;
+    margin-top: 10px;
+}
+.rebateValueDiv{
+    color: #333333;
+    font-size: 60px;
+}
+.shareReabateTopDiv{
+    height: 14px;
+}
+.shareRebateDiv{
+    border: 1px solid #e31436;
+    border-radius: 23px;
+    height: 46px;
+    width: 210px;
+    font-size: 28px;
+    color: #e31436;
+    margin: 0 auto;
+}
+.shareInfoDiv{
+    color: #a8a8a8;
+    font-size: 28px;
+    margin-top: 10px;
+}
+.s2Row1BackDiv{
+    height: 100px;
+    background-color: white;
+    clear: both;
+}
+.s2Row1TitleDiv{
+    float: left;
+    margin-left: 30px;
+    font-size: 28px;
+    color: #333333;
+    margin-top: 24px;
+}
+.s2Row1InfoDiv{
+    float: left;
+    margin-left: 20px;
+    font-size: 24px;
+    color: #a8a8a8;
+    margin-top: 27px;
+}
+.s2Row1Img{
+    float: right;
+    margin-right: 30px;
+    margin-top: 36px;
+}
+.section3BackDiv{
+    height: 320px;
+    margin-top: 24px;
+    background-color: white;
+}
+.s3ItemBackDiv{
+    height: 80px;
+    background-color: white;
+    clear: both;
+}
+.footViewDiv{
+    height: 800px;
+    margin-top: 10px;
+    background-color: #f5f5f5;
 }
