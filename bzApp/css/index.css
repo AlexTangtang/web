@@ -1,0 +1,33 @@
+
+.superDiv{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+.tabbarBackDiv{
+    background-color: white;
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 4;
+}
+.tabbarTopLineDiv{
+    background-color: #a8a8a8;
+    height: 1px;
+    width: 100%;
+}
+.tabbarItemBackDiv{
+    width: 25%;
+    float: left;
+    color: white;
+    text-align: center;
+}
+.tabarItemIconImg{
+    margin-top: 12px;
+}
+.tabbarTitleDiv{
+    font-size: 20px;
+    color: #333333;
+}

@@ -4,118 +4,143 @@
     <meta charset="UTF-8">
     <title>个人中心</title>
     <link href="../css/userCenter.css" type="text/css" rel="stylesheet"/>
+    <script type="text/javascript" src="../js/userCenter.js"></script>
 </head>
 <body class="bodyStyle">
-<div class="headDiv">
-    <div class="headICDiv">
-        <img class="headSet" src="../resource/set.png">
-        <img class="headNews" src="../resource/news.png">
-    </div>
+<!--顶层父级-->
+<div id="outP" class="outPDiv">
+    <!--头视图-->
+    <div class="headDiv">
+        <div class="headICDiv">
+            <img class="headSet" src="../resource/set.png">
+            <img class="headNews" src="../resource/news.png">
+        </div>
 
-    <div class="headImgDiv">
-        <div class="headImgDiv1">
-        </div>
-        <div class="nameDiv">
-            <label class="nameLab">gy36110000000</label>
-            <div class="nameDesDiv">普通用户</div>
-        </div>
-    </div>
-</div>
-<!--仿制tableview-->
-<div class="tableView">
-    <!--第一个分区-->
-    <div class="section1BackDiv">
-        <!--区头-->
-        <div class="section1HeadBackDiv">
-            <div class="section1TitleDiv">直邮订单</div>
-            <img class="section1ArrowImg" src="../resource/ic_arrow.png">
-            <div class="section1InfoDiv">查看更多订单</div>
-        </div>
-        <!--第一行-->
-        <div class="s1row0BackDiv">
-            <div class="itemDiv">
-                <img class="itemImg" src="../resource/daifukuan.png">
-                <div class="itemInfoDiv">待付款</div>
+        <div class="headImgDiv">
+            <div class="headImgDiv1">
             </div>
-            <div class="itemDiv">
-                <img class="itemImg" src="../resource/daifahuo.png">
-                <div class="itemInfoDiv">待发货</div>
-            </div>
-            <div class="itemDiv">
-                <img class="itemImg" src="../resource/daishouhuo.png">
-                <div class="itemInfoDiv">待收货</div>
-            </div>
-            <div class="itemDiv">
-                <img class="itemImg" src="../resource/daipingjia.png">
-                <div class="itemInfoDiv">待评价</div>
+            <div class="nameDiv">
+                <label class="nameLab">gy36110000000</label>
+                <div class="nameDesDiv">普通用户</div>
             </div>
         </div>
     </div>
-    <!--第二个分区-->
-    <div class="section2BackDiv">
-        <!--第一行-->
-        <div class="s2row0backDiv">
-            <div class="s2row0Item1Div">
-                <div class="rebateBtnDiv">
-                    <div class="rebateInfoDiv">余额</div>
-                    <img class="rebateInfoImg" src="../resource/ic_arrow.png">
+    <!--仿制tableview-->
+    <div class="tableView">
+        <!--第一个分区-->
+        <div class="section1BackDiv">
+            <!--区头-->
+            <div class="section1HeadBackDiv">
+                <div class="section1TitleDiv">直邮订单</div>
+                <img class="section1ArrowImg" src="../resource/ic_arrow.png">
+                <div class="section1InfoDiv">查看更多订单</div>
+            </div>
+            <!--第一行-->
+            <div class="s1row0BackDiv">
+                <div class="itemDiv">
+                    <img class="itemImg" src="../resource/daifukuan.png">
+                    <div class="itemInfoDiv">待付款</div>
                 </div>
-                <div class="rebateValueDiv">64.9</div>
-            </div>
-            <div class="s2row0MidLinBackDiv">
-                <div class="s2row0MidLinDiv"></div>
-            </div>
-            <div class="s2row0Item2Div">
-                <div class="shareReabateTopDiv"></div>
-                <div class="shareRebateDiv">分享得奖励</div>
-                <div class="shareInfoDiv">好友下单我得奖励</div>
+                <div class="itemDiv">
+                    <img class="itemImg" src="../resource/daifahuo.png">
+                    <div class="itemInfoDiv">待发货</div>
+                </div>
+                <div class="itemDiv">
+                    <img class="itemImg" src="../resource/daishouhuo.png">
+                    <div class="itemInfoDiv">待收货</div>
+                </div>
+                <div class="itemDiv">
+                    <img class="itemImg" src="../resource/daipingjia.png">
+                    <div class="itemInfoDiv">待评价</div>
+                </div>
             </div>
         </div>
-        <!--分割线-->
-        <div class="s2row0BottomLindiv"></div>
-        <!--第二行-->
-        <div class="s2Row1BackDiv">
-            <div class="s2Row1TitleDiv">我得折扣卡</div>
-            <div class="s2Row1InfoDiv">已领取的好友分享折扣卡</div>
-            <img class="s2Row1Img" src="../resource/ic_arrow.png">
+        <!--第二个分区-->
+        <div class="section2BackDiv">
+            <!--第一行-->
+            <div class="s2row0backDiv">
+                <div class="s2row0Item1Div">
+                    <div class="rebateBtnDiv">
+                        <div class="rebateInfoDiv">余额</div>
+                        <img class="rebateInfoImg" src="../resource/ic_arrow.png">
+                    </div>
+                    <div class="rebateValueDiv">64.9</div>
+                </div>
+                <div class="s2row0MidLinBackDiv">
+                    <div class="s2row0MidLinDiv"></div>
+                </div>
+                <div class="s2row0Item2Div">
+                    <div class="shareReabateTopDiv"></div>
+                    <div class="shareRebateDiv" onclick="showShare()">分享得奖励</div>
+                    <div class="shareInfoDiv">好友下单我得奖励</div>
+                </div>
+            </div>
+            <!--分割线-->
+            <div class="s2row0BottomLindiv"></div>
+            <!--第二行-->
+            <div class="s2Row1BackDiv">
+                <div class="s2Row1TitleDiv">我得折扣卡</div>
+                <div class="s2Row1InfoDiv">已领取的好友分享折扣卡</div>
+                <img class="s2Row1Img" src="../resource/ic_arrow.png">
+            </div>
+        </div>
+        <!---第三分区-->
+        <div class="section3BackDiv">
+            <div class="s3ItemBackDiv">
+                <div class="itemDiv">
+                    <img class="itemImg" src="../resource/mine_v1_coupon.png">
+                    <div class="itemInfoDiv">优惠券</div>
+                </div>
+                <div class="itemDiv">
+                    <img class="itemImg" src="../resource/mine_v1_fav.png">
+                    <div class="itemInfoDiv">收藏夹</div>
+                </div>
+                <div class="itemDiv">
+                    <img class="itemImg" src="../resource/mine_v1_foot.png">
+                    <div class="itemInfoDiv">足迹</div>
+                </div>
+                <div class="itemDiv">
+                    <img  class="itemImg" src="../resource/mine_v1_invite.png">
+                    <div class="itemInfoDiv">邀请好友</div>
+                </div>
+            </div>
+            <div class="s3ItemBackDiv">
+                <div class="itemDiv">
+                    <img class="itemImg" src="../resource/mine_v1_realname.png">
+                    <div class="itemInfoDiv">实名认证</div>
+                </div>
+                <div class="itemDiv">
+                    <img class="itemImg" src="../resource/mine_v1_service_center.png">
+                    <div class="itemInfoDiv">客服中心</div>
+                </div>
+                <div class="itemDiv">
+                    <img class="itemImg" src="../resource/mine_v1_help.png">
+                    <div class="itemInfoDiv">帮助中心</div>
+                </div>
+            </div>
+        </div>
+        <div class="footViewDiv"></div>
+    </div>
+    <!--弹窗视图-->
+    <div id="sharePopView" class="popViewBackDiv">
+        <div class="whiteBackDiv">
+            <div class="closeBackDiv">
+                <img class="closeBtnImg" src="../resource/close.png" onclick="closeAction()">
+            </div>
+            <img class="couponImg" src="../resource/ic_coupon.png">
+            <div class="shareTitleDiv">分享给好友折扣卡</div>
+            <div class="shareInfoDivN">好友下单我得奖励</div>
+            <div class="shareLineBack">
+                <div class="shareLineDiv"></div>
+                <div class="shareLineInfoDiv">分享到</div>
+            </div>
+            <div class="shareIconBackDiv">
+                <img class="shareIconImg" src="../resource/share_bene_wx.png">
+                <img class="shareIconImg" src="../resource/share_bene_fr.png">
+                <img class="shareIconImg" src="../resource/share_bene_wb.png">
+            </div>
         </div>
     </div>
-    <!---第三分区-->
-    <div class="section3BackDiv">
-        <div class="s3ItemBackDiv">
-            <div class="itemDiv">
-                <img class="itemImg" src="../resource/mine_v1_coupon.png">
-                <div class="itemInfoDiv">优惠券</div>
-            </div>
-            <div class="itemDiv">
-                <img class="itemImg" src="../resource/mine_v1_fav.png">
-                <div class="itemInfoDiv">收藏夹</div>
-            </div>
-            <div class="itemDiv">
-                <img class="itemImg" src="../resource/mine_v1_foot.png">
-                <div class="itemInfoDiv">足迹</div>
-            </div>
-            <div class="itemDiv">
-                <img  class="itemImg" src="../resource/mine_v1_invite.png">
-                <div class="itemInfoDiv">邀请好友</div>
-            </div>
-        </div>
-        <div class="s3ItemBackDiv">
-            <div class="itemDiv">
-                <img class="itemImg" src="../resource/mine_v1_realname.png">
-                <div class="itemInfoDiv">实名认证</div>
-            </div>
-            <div class="itemDiv">
-                <img class="itemImg" src="../resource/mine_v1_service_center.png">
-                <div class="itemInfoDiv">客服中心</div>
-            </div>
-            <div class="itemDiv">
-                <img class="itemImg" src="../resource/mine_v1_help.png">
-                <div class="itemInfoDiv">帮助中心</div>
-            </div>
-        </div>
-    </div>
-    <div class="footViewDiv"></div>
 </div>
 </body>
 </html>
