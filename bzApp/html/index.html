@@ -7,27 +7,27 @@
     <link rel="stylesheet" type="text/css" href="../css/userCenter.css">
     <script type="text/javascript" src="../js/index.js"></script>
 </head>
-<body class="bodyStyle" onload="addFirstPage()">
+<body class="bodyStyle">
 <div class="superDiv" id="tabSuper">
-
+    <iframe id="navIframe" scrolling="auto"></iframe>
 </div>
 <div class="tabbarBackDiv">
     <div class="tabbarTopLineDiv"></div>
-    <div class="tabbarItemBackDiv">
-        <img class="tabarItemIconImg" src="../resource/tabbar_1.png">
-        <div class="tabbarTitleDiv">首页</div>
+    <div class="tabbarItemBackDiv" onclick="addFirstPage()">
+        <img class="tabarItemIconImg" src="../resource/tabbar_1.png" id="itemImg1">
+        <div class="tabbarTitleDiv" id="itemTitle1">首页</div>
     </div>
-    <div class="tabbarItemBackDiv">
-        <img class="tabarItemIconImg" src="../resource/tabbar_2.png">
-        <div class="tabbarTitleDiv">分类</div>
+    <div class="tabbarItemBackDiv" onclick="addSecondPage()">
+        <img class="tabarItemIconImg" src="../resource/tabbar_2.png" id="itemImg2">
+        <div class="tabbarTitleDiv" id="itemTitle2">分类</div>
     </div>
-    <div class="tabbarItemBackDiv">
-        <img class="tabarItemIconImg" src="../resource/tabbar_3.png">
-        <div class="tabbarTitleDiv">购物车</div>
+    <div class="tabbarItemBackDiv" onclick="addThirdPage()">
+        <img class="tabarItemIconImg" src="../resource/tabbar_3.png" id="itemImg3">
+        <div class="tabbarTitleDiv" id="itemTitle3">购物车</div>
     </div>
-    <div class="tabbarItemBackDiv">
-        <img class="tabarItemIconImg" src="../resource/tabbar_4.png">
-        <div class="tabbarTitleDiv">我的</div>
+    <div class="tabbarItemBackDiv" onclick="addFourthPage()">
+        <img class="tabarItemIconImg" src="../resource/tabbar_4.png" id="itemImg4">
+        <div class="tabbarTitleDiv" id="itemTitle4">我的</div>
     </div>
 </div>
 </body>
