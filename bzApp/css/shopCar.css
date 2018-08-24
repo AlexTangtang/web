@@ -1,0 +1,124 @@
+.superBackDiv{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.navBackDiv{
+    height: 128px;
+    background-color: white;
+    position: relative;
+    text-align: center;
+    padding-top: 1px;
+    z-index: 2;
+}
+.navTitleDiv{
+    color: #333333;
+    font-size: 34px;
+    margin-top: 55px;
+}
+.rightBarItmeDiv{
+    font-size: 30px;
+    color: #696969;
+    position: absolute;
+    right: 40px;
+    bottom: 30px;
+}
+.navLineDiv{
+    height: 1px;
+    background-color: #a8a8a8;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+.shopCarTableDiv{
+    z-index: 1;
+}
+.shopCarTableCell{
+    height: 240px;
+    clear: both;
+    width: 100%;
+}
+.shopCellSelectDiv{
+    float: left;
+    width: 100px;
+    text-align: center;
+}
+.cellSelectImg{
+    margin-top: 105px;
+}
+.goodsImg{
+    width: 160px;
+    height: 160px;
+    float: left;
+    margin-top: 40px;
+}
+.rightBackDiv{
+    float: left;
+    margin-left: 30px;
+}
+.rightGoodsName{
+    margin-top: 40px;
+    font-size: 30px;
+    color: #333333;
+}
+.rightPriceDiv{
+    margin-top: 85px;
+    font-size: 28px;
+    color: #e31436;
+}
+.cellBottomLineDiv{
+    height: 1px;
+    width: 100%;
+    margin-top: 30px;
+    display: inline-block;
+    background-color: #a8a8a8;
+}
+.bottomViewDiv{
+    height: 90px;
+    clear: both;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 3;
+    background-color: white;
+    box-shadow: 10px 10px 30px 40px #f5f5f5;
+}
+.selectImg{
+    float: left;
+    margin-left: 30px;
+    margin-top: 26px;
+}
+.selectIfoDiv{
+    float: left;
+    margin-left: 30px;
+    font-size: 30px;
+    color: #333333;
+    margin-top: 24px;
+}
+.totalTitleDiv{
+    font-size: 32px;
+    color: black;
+    float: left;
+    margin-left: 40px;
+    margin-top: 22px;
+}
+.totalInfoDiv{
+    font-size: 32px;
+    color: #e31436;
+    float: left;
+    margin-left: 30px;
+    margin-top: 22px;
+}
+.submitDiv{
+    font-size: 34px;
+    color: white;
+    background-color: #e31436;
+    float: right;
+    height: 72px;
+    width: 200px;
+    line-height: 50px;
+    text-align: center;
+    padding-top: 18px;
+    overflow: hidden;
+    /*vertical-align: middle;*/
+}

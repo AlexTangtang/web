@@ -8,11 +8,15 @@ function addFirstPage() {
     changeSelectStatus(1)
 }
 function  addSecondPage() {
-    alert('第二页未有内容')
+    var naviframe = document.getElementById('navIframe')
+    naviframe.setAttribute('src','./categary.html')
+
     changeSelectStatus(2)
 }
 function  addThirdPage() {
-    alert('第三页未有内容')
+    var naviframe = document.getElementById('navIframe')
+    naviframe.setAttribute('src','./shopCar.html')
+
     changeSelectStatus(3)
 }
 function  addFourthPage() {
@@ -58,6 +62,15 @@ function  changeSelectStatus(someP) {
             break;
     }
 }
+
+
+
 window.onload = function () {
+
+    //动态改变iframe高度  防止底部被盖住
+    var navIframe = document.getElementById('navIframe')
+    var winH = document.documentElement.clientHeight || document.body.clientHeight
+    navIframe.style.height = winH - 120 + 'px'
+
     addFirstPage()
 }
